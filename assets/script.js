@@ -1,0 +1,7 @@
+new DataTable('#example');
+
+$(document).ready(function () {
+    $(".select2").select2({
+        closeOnSelect: false,
+    });
+});
